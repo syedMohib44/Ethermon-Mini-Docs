@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Welcome to Ethermon.io Devs
 
 You can use the [editor on GitHub](https://github.com/syedMohib44/Ethermon-Mini-Docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -7,6 +7,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+## Introduction:
+Ethermon mini is a platform provided by ethermon.io which allows the community to participate in creating mini WebGL games, each game expected to follow the similar flow which will be described further in documentation. Projects that are developed by the community will be deployed on ethermon.io server so it can be accessible for all to play.The main reason to deploy games on ethermon servers is to prevent any other games using our services.
+
+### Creating Game With Ethermon Is Easy:
+Ethermon allows us to develop secure games from being exploited by players as WebGL games are easy to do so. Here are some steps to do initial setup for the project.
+
+![Image]("./")
 
 ```markdown
 Syntax highlighted code block
