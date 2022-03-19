@@ -14,7 +14,7 @@ Ethermon mini is a platform provided by ethermon.io which allows the community t
 ### Creating Game With Ethermon Is Easy:
 Ethermon allows us to develop secure games from being exploited by players as WebGL games are easy to do so. Here are some steps to do initial setup for the project.
 
-![Image]("./")
+![Image]("./Sequence.io.jpg")
 
 ```markdown
 Syntax highlighted code block
