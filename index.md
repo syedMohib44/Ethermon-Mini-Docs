@@ -1,4 +1,7 @@
 # Welcome to Ethermon.io Devs
+Hello Devs! We are glad to have you as our community member. Ethermon.io is a blockchain games which follows Play-To-Earn model. As we are community drivin game blockchain game organizers we value our member and want to engage them with us in our development process as well, we had provided various competitions related to game art, pixle art  before but now we wanted to take to the next level where our community members will deveop a Ethermon game on Unity which will be show cased on our website. Asstes for the game will be provided to our members and there will a demo application which members can get inspired of and create somthing unique and fantablous from it. So don't wait and grab the opportunity of being in a spot light.
+
+
 
 ## Introduction:
 Ethermon mini is a platform provided by ethermon.io which allows the community to participate in creating mini WebGL games, each game expected to follow the similar flow which will be described further in documentation. Projects that are developed by the community will be deployed on ethermon.io server so it can be accessible for all to play.The main reason to deploy games on ethermon servers is to prevent any other games using our services.
