@@ -77,12 +77,14 @@ But before this function we are initializing ObstaclePool.cs class which will ge
 ### Utilities:
 This class has created to make it easy for calling socket events and loading objects from the resources folder. The usage is as follows.
 
-```Utilities.LoadObject<GameObject>(“Path to gameObject”)
+```
+       Utilities.LoadObject<GameObject>(“Path to gameObject”)
 ```
 
 Here GameObject can be of any type it can be AudioSource, Texture etc, as type is generic.
 
-```Utilities.LoadObjectWithInstanciate<GameObject>(“Path to gameObject”);
+```
+       Utilities.LoadObjectWithInstanciate<GameObject>(“Path to gameObject”);
 ```
 
 This function looks the same as above but there is a slight difference between both of them LoadObject (Load the object in memory but doesn't instantiate) whereas LoadObjectWithInstanciate (Loads the object and instantiates it in the scene).
@@ -94,7 +96,8 @@ This function looks the same as above but there is a slight difference between b
 We have created a set of events that needed to be called when certain actions are done,
 For Example: If the player is dead the in struct type = “dead”.
 
-```if (!SocketIOUnity.SOCKET_IO.IS_Dead)
+```
+      if (!SocketIOUnity.SOCKET_IO.IS_Dead)
         {
             string json = Utilities.CreateRequest("dead", SocketIOUnity.PLAYER_ID);
             SocketIOUnity.SOCKET_IO.EMIT_DATA(json);
