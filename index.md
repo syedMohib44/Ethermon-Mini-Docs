@@ -9,7 +9,7 @@ Ethermon mini is a platform provided by ethermon.io which allows the community t
 ## Creating Game With Ethermon Is Easy:
 Ethermon allows us to develop secure games from being exploited by players as WebGL games are easy to do so. Here are some steps to do initial setup for the project.
 
-![Image](Sequence.io.jpg)
+![Image](Image3.png)
 
 ## Import Unity Package:
 We have created a demo application which could be a starter point for your project which contains a websocket client and needs to be imported into your unity project. 
@@ -25,14 +25,19 @@ Once imported you will have some scripts and models of mons and UI which you can
 ### Level Scene:
 In the unity inspector we can see different game objects where WS is being used for connecting with ethermon websocket server and communication. Player contains the scripts related to movement and other particles like walking-dust, jump-dust and when the player is hit by an enemy there is coin-drop animation. Note there is no model of character here because it's being added by script so it would be more dynamic and we don’t have to create multiple prefabs of Player objects. Main contains game music and Main.cs script which is responsible for initializing the setup, creating scenes and loading prefabs from the Resources folder. Canvas contains all UI related stuff.
 
+![Image](Image1.png)
 
 
 ### Select Scene:
 We have created a separate scene for the selection menu which is really simple with two buttons which change mons by clicking left or right arrow and clicking on select will put this model inside the Player gameobject. At the time of creating this document only three monsters were added but its really simple to add new monsters with this design, developer just have to put model inside “Recourses/Mons/” which will automatically show mon model in select menu and can be played with it, the only change that might be required by devs would be sync animation and name the animation accordingly which will be discussed in next step.
 
+![Image](Image2.png)
+
 
 ### Adding New Models:
-When model’s added to “Resources/Mons” we need to be sure it is a prefab. If it is not, we can easily create one in unity. Once prefab is created we can put that prefab in the “Resources/Mons” folder where we need to add Animator into the monster prefab which will contain Animator Controller which will contain model animations, here make sure the name of the parameters should be same as it mentioned in below image. For example if we want to trigger jump animation we can make outgoing jump as true and when its completed return to default animation which is running here. We can also add Idle animation depending on the game scenario. ENEMY is a trigger which is triggered when Player gets hit by an enemy also Coin-Drop animation trigger with it.
+When model’s added to “Resources/Mons” we need to be sure it is a prefab. If it is not, we can easily create one in unity. Once prefab is created we can put that prefab in the “Resources/Mons” folder where we need to add Animator into the monster prefab which will contain Animator Controller which will contain model animations, here make sure the name of the parameters should be same as it mentioned in below image. For example if we want to trigger jump animation we can make outgoing jump as true and when its completed return to default animation which is running here. We can also add Idle animation depending on the game scenario. ENEMY is a trigger which is triggered when Player gets hit by an enemy also Coin-Drop animation triggers with it.
+
+![Image](Image4.png)
 
 
 
@@ -118,12 +123,14 @@ Note: More events can be added if requested by developers.
 
 To decrease security risk we also added invisible recaptcha so no bot can try to exploit the game. To use recaptcha you need to create or ethermon.io will provide a secret key to you so when you are ready to build just put that key in placeholder.
 
+![Image](Image5.png)
 
 
 ## How To Test Game While Developing:
 
 Unity support for sockets is not that good and so there are some limitations like we cannot use socket.io in unity editor but we can use it with webgl build. So to test you gameplay in editor you can disable WS game object and comment out SocketIOUnity class if being called anywhere, this will save your time as without it we have to build first and then we can test.
 
+![Image](Image6.png)
 
 
 Unchecking the checkbox will disable the ethermon websocket client and you can test you game features without the need of any build.
