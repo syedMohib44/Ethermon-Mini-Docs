@@ -63,12 +63,14 @@ Above script runs first and it will initialize game and set leveli.e setting Obs
 
 ### Game:
 
-```public void SetLevel(string level = "/Level1")
+```
+       public void SetLevel(string level = "/Level1")
 ```
 
 Now here we can see the default level is /Level1 which is a scene name and in this we are checking if the passed level name is same as active scene load then load objects related to particular scene with function given below. 
 
-```void SetLevel1()
+```
+       void SetLevel1()
 ```
 
 But before this function we are initializing ObstaclePool.cs class which will generate pooling for objects that our player will be jumping on and we can change the object model here with any other. It totally depends upon the devs what they want to develop and how they want to use these scripts. Also we are setting different jump, run and coin collection audio as it can be differ from level to leves if this is grass ground level the running sound would be different but if it was floor filled with snow then audio would be different.
