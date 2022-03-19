@@ -1,5 +1,5 @@
 # Welcome to Ethermon.io Devs
-Hello Devs! We are glad to have you as our community member. Ethermon.io is a blockchain games which follows Play-To-Earn model. As we are community drivin game blockchain game organizers we value our member and want to engage them with us in our development process as well, we had provided various competitions related to game art, pixle art  before but now we wanted to take to the next level where our community members will deveop a Ethermon game on Unity which will be show cased on our website. Asstes for the game will be provided to our members and there will a demo application which members can get inspired of and create somthing unique and fantablous from it. So don't wait and grab the opportunity of being in a spot light.
+Hello Devs! We are glad to have you as our community member. Ethermon.io is a blockchain games which follows **Play-To-Earn** model. As we are community drivin game blockchain game organizers we value our member and want to engage them with us in our development process as well, we had provided various competitions related to game art, pixle art  before but now we wanted to take to the next level where our community members will deveop a Ethermon game on Unity which will be show cased on our website. Asstes for the game will be provided to our members and there will a demo application which members can get inspired of and create somthing unique and fantablous from it. So don't wait and grab the opportunity of being in a spot light.
 
 
 
@@ -35,7 +35,7 @@ We have created a separate scene for the selection menu which is really simple w
 
 
 ### Adding New Models:
-When model’s added to “Resources/Mons” we need to be sure it is a prefab. If it is not, we can easily create one in unity. Once prefab is created we can put that prefab in the “Resources/Mons” folder where we need to add Animator into the monster prefab which will contain Animator Controller which will contain model animations, here make sure the name of the parameters should be same as it mentioned in below image. For example if we want to trigger jump animation we can make outgoing jump as true and when its completed return to default animation which is running here. We can also add Idle animation depending on the game scenario. ENEMY is a trigger which is triggered when Player gets hit by an enemy also Coin-Drop animation triggers with it.
+When model’s added to _“Resources/Mons”_ we need to be sure it is a prefab. If it is not, we can easily create one in unity. Once prefab is created we can put that prefab in the _“Resources/Mons”_ folder where we need to add Animator into the monster prefab which will contain Animator Controller which will contain model animations, here make sure the name of the parameters should be same as it mentioned in below image. For example if we want to trigger jump animation we can make outgoing jump as true and when its completed return to default animation which is running here. We can also add Idle animation depending on the game scenario. ENEMY is a trigger which is triggered when Player gets hit by an enemy also Coin-Drop animation triggers with it.
 
 ![Image](Image4.png)
 
