@@ -37,7 +37,8 @@ When model’s added to “Resources/Mons” we need to be sure it is a prefab. 
 
 ### Main:
 
-```    player = GameObject.FindGameObjectWithTag("Player");
+```    
+       player = GameObject.FindGameObjectWithTag("Player");
        player.SetActive(this.Playing);
        gameMusic = gameObject.GetComponent<AudioSource>();
        Canvas = GameObject.Find("Canvas");
