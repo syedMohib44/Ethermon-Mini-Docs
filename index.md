@@ -9,7 +9,7 @@ Ethermon mini is a platform provided by ethermon.io which allows the community t
 ## Creating Game With Ethermon Is Easy:
 Ethermon allows us to develop secure games from being exploited by players as WebGL games are easy to do so. Here are some steps to do initial setup for the project.
 
-![Image](Image3.png)
+![Image](Image3.jpg)
 
 ## Import Unity Package:
 We have created a demo application which could be a starter point for your project which contains a websocket client and needs to be imported into your unity project. 
