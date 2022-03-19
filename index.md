@@ -46,8 +46,8 @@ When model’s added to “Resources/Mons” we need to be sure it is a prefab. 
 
 
 
-###Usage Of Scripts:
-####Main:
+##Usage Of Scripts:
+###Main:
 ```    player = GameObject.FindGameObjectWithTag("Player");
        player.SetActive(this.Playing);
        gameMusic = gameObject.GetComponent<AudioSource>();
