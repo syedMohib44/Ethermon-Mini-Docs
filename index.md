@@ -28,8 +28,8 @@ In the unity inspector we can see different game objects where WS is being used 
 ![Image](image1.png)
 
 
-### Select Scene:
-We have created a separate scene for the selection menu which is really simple with two buttons which change mons by clicking left or right arrow and clicking on select will put this model inside the Player gameobject. At the time of creating this document only three monsters were added but its really simple to add new monsters with this design, developer just have to put model inside “Recourses/Mons/” which will automatically show mon model in select menu and can be played with it, the only change that might be required by devs would be sync animation and name the animation accordingly which will be discussed in next step.
+### Select Monster Scene:
+We have created a separate scene for the selection menu which is really simple with two buttons which change mons by clicking left or right arrow and clicking on select will put this model inside the Player gameobject. At the time of creating this document only three monsters were added but its really simple to add new monsters with this design, developer just have to put model inside “Recourses/Mons/” which will automatically show mon model in select menu and can be played with it, **validation is also place(which checks if user have even one mon purchased which is available in the game collection only then player will be able to play the game).** The only change that might be required by devs would be sync animation and name the animation accordingly which will be discussed in next step. 
 
 ![Image](image2.png)
 
