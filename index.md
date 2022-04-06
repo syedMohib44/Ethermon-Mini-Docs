@@ -1,4 +1,6 @@
-# Welcome to Ethermon.io Devs
+# ECG - Ethermon Community Games
+
+## Welcome to Ethermon.io Devs
 Greetings, developers! We are delighted to have you as a member of our community. Ethermon.io is a blockchain game that operates on the Play-To-Earn principle. As community-driven blockchain game organisers, we value our members and want to involve them in our development process as well. We have previously held competitions related to game art and pixle art, but now we want to take things a step further by having our community members develop an Ethermon game on Unity that will be showcased on our website. Our members will be given instructions for the game, as well as a demo application from which they can be inspired to build something unique and fantastic. So don't wait and grab the opportunity of being in a spot light.
 
 
